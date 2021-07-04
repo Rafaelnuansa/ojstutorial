@@ -1,0 +1,13 @@
+lib\pkp\classes\components\forms\site\PKPSiteAppearanceForm.inc.php
+
+Search this code :
+
+'value' => $site->getData('pageFooter'),
+
+and then after add:
+
+'toolbar' => 'bold italic superscript subscript | link | blockquote bullist numlist | image | code',
+'plugins' => 'paste,link,lists,image,code',
+'uploadUrl' => $imageUploadUrl,
+
+Save
